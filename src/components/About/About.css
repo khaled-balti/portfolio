@@ -1,0 +1,39 @@
+.wrappers {
+    position: relative;
+    height: 460px;
+    overflow: hidden;
+    padding-top: 70px;
+    border-radius: 30%;
+}
+
+.button {
+    background-color: #E8CF00;
+    color: white;
+    height: 50px;
+    border-radius: 10px;
+}
+
+.section {
+    padding-left: 150px;
+}
+
+@media (max-width: 1440px) {
+    .section {
+        padding-left: 50px;
+    }
+}
+
+.image-container {
+    background-color: #E8CF00;
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+    overflow: visible;
+    position: relative;
+}
+
+.image2 {
+    margin-top: -70px;
+    position: absolute;
+    bottom: 0;
+}

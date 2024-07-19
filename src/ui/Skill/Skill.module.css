@@ -1,0 +1,60 @@
+.border-box {
+    width: 160px;
+    height: 160px;
+    position: relative;
+    margin-bottom: 0px;
+}
+
+@media (max-width: 992px) {
+    .border-box {
+        margin-bottom: 150px;
+    }
+}
+
+.outer {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    border: 20px solid #2B2B2B;
+    /* box-shadow: 6px 6px 10px -1px rgba(0,0,0,0.15),
+                -6px -6px 10px -1px rgba(255,255,255,0.7); */
+}
+.inner {
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #2B2B2B;
+    /* box-shadow: inset 4px 4px 6px -1px rgba(0,0,0,0.2),
+                inset -4px -4px 6px -1px rgba(255,255,255,0.7),
+                -0.5px -0.5px 0px rgba(255,255,255,1),
+                0.5px 0.5px 0px rgba(0,0,0,0.15),
+                0px 12px 10px -10px rgba(0,0,0,0.05); */
+}
+#number {
+    font-weight: 600;
+    color: #555;
+}
+
+circle {
+    fill: none;
+    stroke: #E8CF00;
+    stroke-width: 20px;
+    stroke-dasharray: 472;
+    stroke-dashoffset: 472;
+    animation: anim var(--anim-duration) linear forwards;
+}
+
+svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+@keyframes anim{
+    100% {
+        stroke-dashoffset: var(--dash-offset);
+    }
+}

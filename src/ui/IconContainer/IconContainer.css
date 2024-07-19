@@ -1,0 +1,11 @@
+.cont {
+    width: 30px;
+    height: 30px;
+    background-color: #E8CF00;
+    transform: rotate(45deg);
+    transition: transform 0.5s;
+}
+
+.cont:hover {
+    transform: rotate(0deg);
+}

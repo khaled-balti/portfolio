@@ -1,0 +1,50 @@
+.button {
+    background-color: #E8CF00;
+    color: white;
+    height: 50px;
+    border-radius: 10px;
+}
+
+.wrapper {
+    position: relative;
+    height: 560px;
+    overflow: hidden;
+    padding-top: 70px;
+    border-radius: 44%;
+}
+
+.image-cont {
+    background-color: #E8CF00;
+    border-radius: 50%;
+    width: 500px;
+    height: 500px;
+    overflow: visible;
+}
+
+.image {
+    margin-top: -70px;
+}
+
+@media (max-width: 768px) {
+    .wrapper {
+        position: relative;
+        height: 280px; /* Reduced height */
+        overflow: hidden;
+        padding-top: 35px; /* Adjusted padding */
+        border-radius: 44%;
+      }
+  
+      .image-cont {
+        background-color: #E8CF00;
+        border-radius: 50%;
+        width: 250px; 
+        height: 250px; 
+        padding-left: 25px; 
+      }
+  
+      .image {
+        margin-top: -35px; 
+        width: 200px; 
+        height: auto; 
+      }
+}
